@@ -33,7 +33,7 @@ Unity 프로젝트에서 **컴포넌트 간의 의존성을 줄이고, 강력한
 ## 🚀 사용 예시
 
 ### 1. 이벤트 키 정의
-이벤트 키는 EventKeyManager를 이용해 등록
+**이벤트 키는 EventKeyManager를 이용해서 등록하여야 Editor에서 관리가 가능합니다.**
 ```csharp
 public static class UIEventKeys
 {
