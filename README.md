@@ -33,7 +33,7 @@ Unity 프로젝트에서 **컴포넌트 간의 의존성을 줄이고, 강력한
 ## 🚀 사용 예시
 
 ### 1. 이벤트 키 정의
-이벤트 키는 EventKeyEditor를 이용해 등록
+이벤트 키는 EventKeyManager를 이용해 등록
 ```csharp
 public static class UIEventKeys
 {
@@ -74,9 +74,14 @@ void OnDestroy()
 ### 1. EventKeyDebugger
 **Tools → Event Bus → Debugger**
 ![EventKeyDebugger](./docs/Images/EventDebugger.png)
-등록된 이벤트와 리스너 확인
-파라미터 입력 후 실행 가능
+등록된 이벤트와 리스너 확인 /
+파라미터 입력 후 실행 가능 /
 전체 이벤트 초기화 버튼 제공
+
+### 2. EventKeyManager
+**Tools → Event Bus → Key Manager**
+![EventKeyDebugger](./docs/Images/EventKeyManager.png)
+카테고리별 이벤트 키 관리 / 자동 코드 생성 (카테고리별 .cs 파일 생성) / JSON 내보내기/가져오기 지원 / 중복 키 탐지 및 정리 기능 제공
 
 
 
