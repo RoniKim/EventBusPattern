@@ -68,9 +68,15 @@ void OnDestroy()
     EventBusSystem.Unregister(UIEventKeys.OnButtonClick, OnButtonClicked);
 }
 ```
+---
+## Editor
 
-### Editor
-
+### 1. EventKeyDebugger
+**Tools → Event Bus → Debugger**
+![EventKeyDebugger](./docs/Images/EventDebugger.png)
+등록된 이벤트와 리스너 확인
+파라미터 입력 후 실행 가능
+전체 이벤트 초기화 버튼 제공
 
 
 
